@@ -1,5 +1,9 @@
 import React from 'react';
 
+state = {
+    posts: [],
+};
+
 class App extends React.Component {
   render() {
     return (
@@ -11,19 +15,5 @@ class App extends React.Component {
     );
   }
 }
-
-state = {
-    posts: [],
-};
-
-componentDidMount() {
-    fetch('http://localhost:8000/api/posts')
-        .then(res => res.json())
-        .then(res => {
-            this.setState({ posts: res});
-        });
-}
-
-
 
 export default App;
