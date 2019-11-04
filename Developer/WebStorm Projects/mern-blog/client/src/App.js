@@ -3,10 +3,10 @@ import { Switch, Route } from 'react-router-dom';
 
 import MainLayout from '../components/layout/MainLayout/MainLayout';
 
-import Home from './components/pages/Home/HomePage';
-import Posts from './components/pages/Posts/PostsPage';
-import Contact from './components/pages/Contact/ContactPage';
-import NotFound from './components/pages/NotFound/NotFoundPage';
+import Home from '../components/pages/Home/HomePage';
+import Posts from '../components/pages/Posts/PostsPage';
+import Contact from '../components/pages/Contact/ContactPage';
+import NotFound from '../components/pages/NotFound/NotFoundPage';
 
 class App extends React.Component {
 
