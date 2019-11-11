@@ -11,6 +11,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="SCSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -20,6 +21,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.1" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,7 +64,7 @@
       <workItem from="1572776973962" duration="8708000" />
       <workItem from="1572901818290" duration="459000" />
       <workItem from="1572908136655" duration="2105000" />
-      <workItem from="1573490306469" duration="4853000" />
+      <workItem from="1573490306469" duration="6823000" />
     </task>
     <servers />
   </component>

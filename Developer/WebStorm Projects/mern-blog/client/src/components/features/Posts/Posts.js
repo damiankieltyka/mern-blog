@@ -1,5 +1,6 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
+import PostsList from "../PostsList/PostsList";
 
 class Posts extends React.Component {
 
@@ -13,15 +14,12 @@ class Posts extends React.Component {
 
         return (
             <div>
-                Posts
-                <ul>
-                    {posts.map(post => <li key={post.id}>{post.title}</li>)}
-                </ul>
+                <PostsList posts={posts} />
             </div>
         );
     }
 
-};
+}
 
 Posts.propTypes = {
     posts: PropTypes.arrayOf(
