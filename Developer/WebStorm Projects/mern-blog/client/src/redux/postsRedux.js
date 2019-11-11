@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 /* SELECTORS */
 
 /* ACTIONS */
@@ -25,3 +27,18 @@ export default function reducer(statePart = initialState, action = {}) {
 };
 
 export const getPosts = ({ posts }) => posts;
+
+/* THUNKS */
+
+export const loadPostsRequest = () => {
+    return dispatch => {
+
+        axios.get('http://localhost:8000/api/posts').then(res => {
+            dispatch(loadPosts(res.data));
+        })
+            .catch(err => {
+                console.log(err.message);
+            });
+
+    };
+};
